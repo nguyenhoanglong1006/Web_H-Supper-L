@@ -1,0 +1,5 @@
+.HL-bd-radius-text {
+    border-color: rgba(255, 255, 255,0);
+    border-bottom: #ff4500 solid 3px;
+}
+img.center {display: block; margin-left: auto; margin-right: auto;}

@@ -1,0 +1,47 @@
+
+#container {
+    
+}
+#gioHang {
+    position: relative;
+}
+.so-Luong-GioHang {
+    position: absolute;
+   
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+     background-color: red;
+    top: 0;
+    right: 0;
+    
+
+}
+.so-Luong-GioHang p {
+    font-size: 17px;
+    font-weight: bold;
+}
+.button_giohang{
+    border-radius: 2px;
+}
+
+#collapsibleNavbar li:hover .dropdown-menu{
+    display: block;
+
+}
+.xuhuong {
+    transition: transform ease 0.5s;
+}
+.xuhuong:hover{
+    transform: scale(1.1);
+}
+
+.footer p {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* reponsive */
+
+
+

@@ -1,0 +1,26 @@
+.HL-text-blue{
+    color: #00C4E1;
+}
+.HL-bd-color-blue{
+    border-color: #00C4E1;
+}
+
+.HL-text-red{
+    color: #FF0000;
+}
+.HL-bd-color-red{
+    border-color: #FF0000;
+}
+.HL-bd-color-spink{
+    border-color: #FDB9BC;
+}
+.HL-bd-right {
+    border-right: 1px solid rgb(253, 185, 188);
+}
+.HL-bd-bottom {
+    border-bottom: 1px solid rgb(253, 185, 188);
+}
+.don-da-duyet {
+    background-color: #C1FFE1;
+    border-radius: 5px;
+}

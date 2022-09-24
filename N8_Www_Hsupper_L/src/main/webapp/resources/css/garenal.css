@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 15px;
+    line-height:1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.bg-LT {
+    background-color: #3f3e3e;
+}
+.bg-HL{
+    background-color:#e5e4e2;
+}
+.bg-nav-doc{
+    background-color: #fcecec;
+}
+.text-LT {
+    color: #AE2154;
+}
+.text-link {
+    color: rgb(20, 16, 16);
+}
+
+.text-link:hover {
+    color:  #0f0808;
+}
+
+.text-nav:hover{
+    color:  #080303;
+}
+
+.text-LT-link:hover {
+    color: red;
+}
+
+.text-justify {
+    text-align: justify;
+}
+li:hover a{
+    color:  #0c0a0a
+}
+.bd-bottom {
+    border-bottom: rgba(57, 210, 247, 0.3) solid 1px;
+}
+.bd-link {
+    border-bottom: rgba(57, 210, 247,0) solid 3px;
+}
+.bd-link:hover {
+    border-bottom: #ff4500 solid 3px;
+}
+.bd-img {
+    border: 1px solid rgba(0,0,0,.125)
+}
+.bd-img:hover {
+    border: #FDB9BC solid 1px;
+}
+
+.HL-bd-hover-pink:hover {
+    border-color: #a8242b;
+    background-color: rgba(253, 185, 188, 0.1);
+}
+.HL-bd-radius-top {
+    border-radius: 10px 10px 0 0;
+    
+}
+.HL-bd-radius {
+    border-radius: 10px;
+    color: #a8242b;
+}
+
+.HL-btn-danhan {
+    color: #535768;
+}
+.HL-btn-huydon {
+    color: #ff0000;
+    background-color: #FFFFFE;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 10px;
+}
+.HL-line-pink {
+
+    height: 3px;
+    width: 200px;
+    background-color:#ff4500;
+
+}
+.HL-bd-btn {
+    border-radius: 10px;
+    border: 1px solid rgb(253, 185, 188);
+    box-shadow: -2px 3px 5px rgba(0, 0, 0, 0.2),
+        3px -3px 5px rgba(255, 255, 255, 1);
+}
+
+.HL-bd-hover-pink {
+
+    border-radius: 10px;
+}
+.HL-link {
+    color: #535768;
+    text-decoration: none;
+}
+
+.HL-link:hover {
+    color: #ff4500;
+}
+
+/* text */
+.HL-text-dark {
+    color: #535768;
+}
+
+
+li{
+    width: 150px;
+}
+
+   
+@media (max-width:900px) {
+    /* html {
+        font-size: 13px;
+    } */
+    .logo {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 770px) {
+    .div-logo {
+        width: 100%;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    h5 {
+        font-size: 16px;
+    }
+    html {
+        font-size: 12px;
+    }
+}
